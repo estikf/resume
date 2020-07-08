@@ -1,0 +1,9 @@
+- reset.css ile browserin kendi csslerini resetleriz. Kendi yazacaðýmýz cssler için çakýþma olmamalý.
+- css'de class seçerken baþýna . koyuyoruz
+- css'de id seçerken baþýna # koyuyoruz.
+- flex-grow sütun uzunluðu eþit olsun demek oluyor 
+
+
+? <i> tagýna bak
+? Parallax araþtýr
+	
