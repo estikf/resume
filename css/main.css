@@ -370,10 +370,14 @@ footer {
     text-align: center;
 
 }
+
+
 .footerItem {
     padding: 20px;
     height: 40%;
 }
+
+
 .footerItem h3 {
     text-decoration: underline;
 }
@@ -425,18 +429,147 @@ footer p {
 /* MOBILE SETTINGS*/
 
 @media (max-width: 500px) {
-    #mainCaption2 p {
-        font-size: 13px;
-        line-height: 25px;
-        text-align: justify;
-        align-items: flex-start;
-        height: 100%;
-        padding-top: 30px;
-        padding-right: 10px;
+
+
+/* GRID SETTINGS */
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.resumeBody .container {
+    justify-content: space-between;
+}
+
+.featuresBody .container {
+    justify-content: space-between;
+}
+
+.col3 {
+    flex-grow: 1;
+    width: 33.33%;
+}
+
+.engineBody .container {
+    justify-content: space-between;
+    width: 60%;
+}
+
+.col2 {
+    flex-grow: 1;
+    width: 50%;
+    line-height: 25px;
+    padding: 20px;
     
-    }
+}
+
+
+#mainSlider {
+    height: 600px;
+    background: url(../img/mainHome2.jpg);
+    display: flex;
+    flex-direction: column;
     
-    #mainCaption1 {
-        width: 60%;
-    }
+}
+
+.slider {
+    width: 100%;
+
+}
+
+#mainCaption1, #mainCaption2 {
+    height: 600px;
+    background: rgba(0, 0, 0, .6);
+}
+
+#mainCaption1 h1 {
+    font-size: 20px;
+}
+
+#mainCaption1 h3 {
+    font-size: 18px;
+}
+
+#mainCaption2 p {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: justify;
+    align-items: flex-start;
+    height: 100%;
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+#mainCaption1 img {
+    height: 200px;
+    width: 150px;
+
+
+}
+
+
+.resumeTop {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.resumeTop h2 {
+    color: #500d16;
+    font-size: 30px;
+}
+
+.resumeBody {
+    justify-content: space-evenly;
+    background-color: #500d16;
+    height: 100%;
+    width: 90%;
+    padding: 0px 0px;
+
+}
+
+.resumeBody h2 {
+    font-size: 20px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.skillsetDiv {
+    text-align: center;
+    color: #500d16;
+    background-color: whitesmoke
+}
+
+#skillset1 {
+    width: 90%;
+}
+#skillset2 {
+    width: 50%;
+}
+#skillset3 {
+    width: 80%;
+}
+#skillset4 {
+    width: 80%;
+}
+#skillset5 {
+    width: 100%;
+}
+#skillset6 {
+    width: 50%;
+}
+
+
+.skillset li{
+    color: whitesmoke;
+
+}
+
 }
