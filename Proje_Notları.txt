@@ -2,8 +2,10 @@
 - css'de class seçerken baþýna . koyuyoruz
 - css'de id seçerken baþýna # koyuyoruz.
 - flex-grow sütun uzunluðu eþit olsun demek oluyor 
-
+- class:hover class2  >> class'ýn üstüne gelindiðinde class2'de deðiþiklik yap demektir.
+- white-space >> textin alt alta gelmesini önler
+- overflow : hidden >> görünmez yapar
 
 ? <i> tagýna bak
 ? Parallax araþtýr
-	
+? position : absolute araþtýr
